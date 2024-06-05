@@ -1,7 +1,7 @@
 abstract class MultiSet<T> {
     abstract boolean add(T item);
 
-    abstract void removeOne(T item);
+    abstract void remove(T item);
 
     abstract boolean contains(T item);
 
